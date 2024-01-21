@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Cinema</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9a8ea11888.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+  <!-- NAVBAR here -->
+    <div class="navbar">
+        <hr>
+            <ul>
+                <li>Dragon</li>
+                <li>Home</li>
+                <li>Movies</li>
+            </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+
+      <!-- Slideshow here -->
+    <div class="movieSlideShow">
+        <img src="" alt="" id="slide">
+        <span class="material-symbols-outlined" id="next" onclick="next()"> arrow_forward_ios</span>
+        <span class="material-symbols-outlined" id="prev"  onclick="prev()">arrow_back_ios_new</span>
+    </div>
+<br>
+<br>
+  <!--Search bar here -->
+    <div class="searchBar">
+        <div class="searchIcon"><span class="material-symbols-outlined" id="searchIcon">search</span></div>
+        <div class="hr"></div>
+        <div class="searchText"> <input type="text"  placeholder="Enter movie name" id="searchBar" onkeydown="search()"></div>
+        
+    </div>
+
+    <!-- Movies card start here -->
+    <div class="movies">
+        <ul>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./aqua.jpeg" alt="Aquaman">
+                </div>
+                <div class="movie_name">
+                    <h4>AQUAMAN AND THE LOST KINGDOM</h4>
+                </div>
+            </div>
+
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./Lift.jpg" alt="Aquaman">
+                </div>
+                <div class="movie_name">
+                    <h4>LIFT</h4>
+                </div>
+            </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./Wonka.jpg" alt="Wonka">
+                </div>
+                <div class="movie_name">
+                    <h4>WONKA</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./Napoleon.jpg" alt="Naploleon">
+                </div>
+                <div class="movie_name">
+                    <h4>NAPOLEON</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./MeanGirls.jpeg" alt="Mean Grils">
+                </div>
+                <div class="movie_name">
+                    <h4>MEAN GIRLS</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./WISH.jpeg" alt="WISH">
+                </div>
+                <div class="movie_name">
+                    <h4>WISH</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./Noah.jpeg" alt="NOAH'S ARK">
+                </div>
+                <div class="movie_name">
+                    <h4>NOAH'S ARK</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./HUNGER GAMES.jpeg" alt="HUNGER GAMES">
+                </div>
+                <div class="movie_name">
+                    <h4>HUNGER GAMES: THE BALLAD OF SONGBIRDS AND SNAKES</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./MIGRATION.jpeg" alt="MIGRATION">
+                </div>
+                <div class="movie_name">
+                    <h4>MIGRATION</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./Trolls.jpeg" alt="Trolls">
+                </div>
+                <div class="movie_name">
+                    <h4>TROLLS BAND TOGETHER</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./The Marvels.jpeg" alt="The Marvels">
+                </div>
+                <div class="movie_name">
+                    <h4>THE MARVEL</h4>
+                </div>
+                </div>
+            </li>
+            <li class="movie">
+                <div class="cards">
+                <div class="movie_image">
+                    <img src="./Beekeeper.jpg" alt="Beekeeper">
+                </div>
+                <div class="movie_name">
+                    <h4>BEEKEEPER</h4>
+                </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<br>
+    <div class="footer">
+        <div class="footer_content">
+        <div class="footer-links">
+                
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movie</a></li>
+            </ul>
+            
+            
+        </div>  
+        <div class="socials">
+            <ul>
+                <li><i class="fa-brands fa-instagram fa-lg"></i></li>
+                <li></li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy; 2024 Dragon Cinema. All rights reserved.</p>
+    </div>
+<p>Hello</p>
+</body>
+</html>

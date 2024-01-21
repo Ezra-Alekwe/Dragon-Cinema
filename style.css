@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+
+}
+
+/* navbar  css*/
+
+.navbar ul li{
+    list-style: none;
+    margin-right: 90px;
+   font-size: 25px; 
+}
+
+.navbar ul{
+    display: flex;  
+    justify-content: center;
+
+
+}
+
+ .navbar{
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.navbar ul li:nth-child(3) {
+ text-decoration:#f00 underline;
+  
+}
+
+
+
+hr{
+    height: 5px;
+    background-color: #f00;
+    border: none;
+    margin: auto;
+    width: 480px;
+    text-align: center;
+}
+
+/* SlideShow css */
+
+.movieSlideShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.movieSlideShow img{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+#next{
+    position: absolute;
+    top:300px;
+    right: 150px;
+    font-size: 50px;
+    background-color: #1b1b1b;
+}
+
+#prev{
+    position: absolute;
+    top:300px;
+    left: 150px;
+    font-size: 50px;
+    background-color: #1b1b1b;
+}
+
+/* Searchbar css */
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    width: 1000px;
+    background:  #2d3032;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.searchBar input{
+
+    width: 900px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+   background:  #2d3032;
+   color: #fff;
+}
+
+#searchIcon{
+    font-size: 50px;
+}
+
+.hr{
+    display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+    border-left: 3px solid #fff;
+    height: 30px;
+}
+
+/* Movie css */
+
+.movies ul{
+    list-style: none;
+}
+
+
+.cards{
+    /* border: 1px solid #fff; */
+    width: 200px;
+    height: 370px;
+}
+
+.cards img{
+    width: 200px;
+    height: 300px;  
+}
+
+
+.movies ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+}
+
+
+/* Footer starts here */
+.footer{
+    background: #1b1b1b;
+    color:#fff;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer_content{
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links ul li{
+    margin-left: 20px;
+
+}
+
+
+.socials ul{
+    list-style: none;
+    display: flex;
+}
+
+.socials ul li{
+    margin-left: 20px;
+}
+
+.footer p{
+    text-align: center;
+    margin: 0;
+}
