@@ -144,10 +144,8 @@ hr{
 .footer{
     background: #1b1b1b;
     color:#fff;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
+
 }
 
 .footer_content{
@@ -184,4 +182,10 @@ hr{
 .footer p{
     text-align: center;
     margin: 0;
+}
+
+/* Booking */
+
+.booking_Tab{
+
 }
