@@ -187,5 +187,7 @@ hr{
 /* Booking */
 
 .booking_Tab{
-
+background: #fff;
+height: 300px;
+color: #000;
 }
